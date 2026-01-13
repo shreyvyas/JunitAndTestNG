@@ -3,9 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="tests.ParamterizedTest"/>
-      <class name="tests.AnnotationsTest"/>
-      <class name="tests.TestCalculator2"/>
+      <class name="tests.TestNG1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
