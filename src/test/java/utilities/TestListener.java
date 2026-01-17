@@ -25,6 +25,8 @@ public class TestListener implements ITestListener{
 		
 		System.out.println("Fail: " +result.getName());
 		
+		Screenshots.getScreenShot(result.getName());
+		
 	}
 
 	@Override
